@@ -17,18 +17,18 @@ public class PrinterDemo {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Font f = new Font("Adobe Garamond Pro Bold", Font.BOLD, 20);
+		Font f = new Font("Algerian", Font.BOLD, 15);
 //		Scanner scan = new Scanner(System.in);
 	//	System.out.println("Enter an item name: ")
-		String name1 = "<b>\tJames\t\t\t\tSmith\nNicholas\n</b>";
+		String name1 = "\tJames\t\t\t\tSmith\nNicholas\n";
 		name1 += "\tJa\t\t\t\tSth\nNic\n";
 		name1 += "\tJames\t\t\t\tSmith\nNicholas\n";
 		name1 += "\tJames\t\t\t\tSmith\nNicholas\n";
-		
+		System.out.println(name1);
 		JTextArea jarea = new JTextArea();
 		jarea.setFont(f);
 		jarea.setText(name1);
-		JOptionPane.showMessageDialog(null, jarea);
+		JOptionPane.showMessageDialog(null,jarea);
 		//String name2 = new String("Nicholas Test");
 		//return ascii code of string class
 		System.out.println(name1);
